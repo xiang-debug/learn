@@ -1,0 +1,44 @@
+Arguments: 
+  D:\items\laragon\bin\nodejs\node-v12\node.exe C:\Users\xiang\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add cors
+
+PATH: 
+  C:\Users\xiang\AppData\Local\Yarn\config\global\node_modules\.bin;C:\Users\xiang\AppData\Roaming\npm;C:\Users\xiang\AppData\Roaming\Composer\vendor\bin;;D:\items\laragon\bin\laragon\utils;D:\items\laragon\bin\mysql\mysql-5.7.24-winx64\bin;D:\items\laragon\bin\php\php-7.2.19-Win32-VC15-x64;D:\items\laragon\bin\composer;D:\items\laragon\bin\apache\httpd-2.4.35-win64-VC15\bin;D:\items\laragon\bin\redis\redis-x64-3.2.100;D:\items\laragon\bin\nodejs\node-v12;D:\items\laragon\bin\nginx\nginx-1.16.0;D:\items\laragon\bin\notepad++;D:\items\laragon\bin\telnet;D:\items\laragon\bin\ngrok;D:\items\laragon\bin\git\bin;D:\items\laragon\bin\git\cmd;D:\items\laragon\bin\git\usr\bin;D:\items\laragon\bin\git\mingw64\bin;D:\items\laragon\bin;D:\items\laragon\usr\bin;D:\items\laragon\bin\putty;D:\items\laragon\bin\cmder\bin;D:\items\laragon\bin\cmder\vendor\conemu-maximus5\ConEmu\Scripts;D:\items\laragon\bin\cmder\vendor\conemu-maximus5;D:\items\laragon\bin\cmder\vendor\conemu-maximus5\ConEmu;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python27\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\nodejs\;D:\Drivers\软件\Git\cmd;C:\Program Files\Java\jdk1.8.0_261\bin;C:\Users\xiang\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Java\jdk1.8.0_261\jre\bin;C:\Users\xiang\AppData\Local\Microsoft\WindowsApps;C:\Users\xiang\AppData\Roaming\npm;D:\Drivers\软件\Microsoft VS Code\bin;C:\Users\xiang\AppData\Local\GitHubDesktop\bin;D:\Drivers\软件\Git\usr\bin;D:\Drivers\软件\Git\usr\share\vim\vim74;D:\items\laragon\bin\cmder\;
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  12.5.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile 'C:\Users\xiang\AppData\Local\Yarn\Cache\v6\npm-ansi-regex-4.1.0-8b9f8f08cf1acb843756a839ca8c7e3168c51997-integrity\node_modules\ansi-regex\license' -> 'D:\items\clwyBack\blog\node_modules\ansi-align\node_modules\ansi-regex\license'
+
+npm manifest: 
+  {
+    "name": "blog",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+      "start": "nodemon ./bin/www"
+    },
+    "dependencies": {
+      "cookie-parser": "~1.4.4",
+      "debug": "~2.6.9",
+      "ejs": "~2.6.1",
+      "express": "~4.16.1",
+      "http-errors": "~1.6.3",
+      "morgan": "~1.9.1",
+      "mysql2": "^2.2.5",
+      "nodemon": "^2.0.6",
+      "sequelize": "^6.3.5"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
